@@ -1,0 +1,64 @@
+/* PAGES - Contact */
+.contact-page {
+	.left {
+		color: #636363 !important;
+
+		.title {
+			color: #353535 !important;
+		}
+
+		.logo {
+			margin-bottom: 50px;
+
+			img {
+			    box-shadow: 1px 4px 20px #c1c1c1;
+			}
+		}
+
+		h6, .thank-text {
+			margin-bottom: 25px;
+		}
+
+		ul {
+			list-style-type: none;
+
+			li {
+				margin-bottom: 3px;
+			}
+		}
+	}
+
+	.form-contact {
+  		form {
+  			margin-top: 45px;
+  		}
+
+		button[type=submit] {
+			padding: 15px 45px;
+			border-radius: 2px;
+			letter-spacing: 1px;
+			background-color: #fff;
+			border-color: #fff;
+			color: #292929;
+		    box-shadow: 1px 2px 5px #eaeaea;
+		}
+
+		.form-control {
+		    margin-bottom: 30px;
+		    padding: 10px 20px;
+			font-size: 12px;
+			color: #292929;
+			border-color: transparent;
+			@include border-radius(1px);
+		}
+
+		textarea {
+		    resize: vertical;
+		    min-height: 100px;
+		}
+	}
+
+	.right {
+
+	}
+}

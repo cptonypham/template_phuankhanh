@@ -1,0 +1,31 @@
+#back_to_top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    text-align: center;
+    line-height: 15px;
+    color: #444;
+    cursor: pointer;
+    border-radius: 2px;
+    text-decoration: none;
+    border: solid 1px #ccc;
+    background-color: #fff;
+    @include opacity(.3);
+    @include border-radius(30px);
+
+    &:hover {
+      @include opacity(1);
+    }
+}
+#back_to_top:hover {
+    background-color: #e9ebec;
+}
+
+#menuIcon {
+    color: #ffb14b;
+
+    &:hover {
+        color: #fff;
+    }
+}

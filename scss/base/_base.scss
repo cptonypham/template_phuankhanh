@@ -1,0 +1,68 @@
+body {
+	font-family: 'Roboto', sans-serif;
+
+	&.fixed {
+		overflow: hidden;
+	}
+}
+
+.clear-fix {
+	clear: both;
+}
+
+.padding {
+	padding: 15px;
+}
+
+.margin {
+	margin: 15px;
+}
+
+.mb-60 {
+	margin-bottom: 60px;
+}
+
+.pad-tb-80 {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.pad-tb-60 {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.pad-tb-40 {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+
+
+.no-margin {
+	margin: 0;
+}
+
+.bg-fixed {
+    background-attachment: fixed;
+}
+
+.no-radius {
+	@include border-radius(0);
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.break-text-3 {
+	@include text-overflow(3);
+}
